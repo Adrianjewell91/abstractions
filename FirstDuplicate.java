@@ -1,7 +1,8 @@
 import java.lang.Math;
 public class FirstDuplicate {
     public static void main(String[] args) {
-        Integer[] array = { 8,4,6,2,6,4,7,9,5,8 };
+        // Integer[] array = { 8,4,6,2,6,4,7,9,5,8 };
+        Integer[] array = { 5, 5, 5, 5, 5 };
         Integer result = iterate(array);
         System.out.println(result != null ? result : -1);
     }

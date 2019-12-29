@@ -19,11 +19,8 @@ proc2 = Proc.new { |array, num| array[num.abs-1] > 0 }
 proc3 = Proc.new { |num| num.abs }
 
 
-# In words:
-    # Count all the numbers 
-    # And track the 
 def abstraction(s)
-    # define data struction
+    # define data structure
     counter = Hash.new(0)
 
     # define the data structure
